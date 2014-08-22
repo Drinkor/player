@@ -18,6 +18,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+   /*
+    
+    NSFileManager *filemgr;
+    NSArray *filelist;
+    int count;
+    int i;
+    
+    filemgr = [NSFileManager defaultManager];
+    filelist = [filemgr contentsOfDirectoryAtPath: @"/Users/Jenejkee/Desktop/Music" error: nil];
+    count = [filelist count];
+    
+    for (i = 0; i < count; i++)
+        NSLog (@"%@", [filelist objectAtIndex: i]);
+    */
     
     NSError *error = nil;
     
