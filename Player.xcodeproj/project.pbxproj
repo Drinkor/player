@@ -15,12 +15,15 @@
 		1A04C06E19A621D5007E426B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A04C06D19A621D5007E426B /* AppDelegate.m */; };
 		1A04C07119A621D5007E426B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A04C06F19A621D5007E426B /* Main.storyboard */; };
 		1A04C07419A621D5007E426B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A04C07319A621D5007E426B /* ViewController.m */; };
-		1A04C07619A621D5007E426B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A04C07519A621D5007E426B /* Images.xcassets */; };
 		1A04C07D19A621D5007E426B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A04C07C19A621D5007E426B /* XCTest.framework */; };
 		1A04C07E19A621D5007E426B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A04C05D19A621D5007E426B /* Foundation.framework */; };
 		1A04C07F19A621D5007E426B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A04C06119A621D5007E426B /* UIKit.framework */; };
 		1A04C08719A621D5007E426B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A04C08519A621D5007E426B /* InfoPlist.strings */; };
 		1A04C08919A621D5007E426B /* PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A04C08819A621D5007E426B /* PlayerTests.m */; };
+		1A04C09319A62209007E426B /* Arctic Monkeys - Crying Lightning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A04C09219A62209007E426B /* Arctic Monkeys - Crying Lightning.mp3 */; };
+		1A04C09519A6252B007E426B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A04C09419A6252A007E426B /* AVFoundation.framework */; };
+		1A04C0A619A66C07007E426B /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A04C0A519A66C07007E426B /* Images-2.xcassets */; };
+		1A04C0A819A66D5F007E426B /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A04C0A719A66D5F007E426B /* picture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +50,15 @@
 		1A04C07019A621D5007E426B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A04C07219A621D5007E426B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1A04C07319A621D5007E426B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1A04C07519A621D5007E426B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A04C07B19A621D5007E426B /* PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A04C07C19A621D5007E426B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1A04C08419A621D5007E426B /* PlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayerTests-Info.plist"; sourceTree = "<group>"; };
 		1A04C08619A621D5007E426B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A04C08819A621D5007E426B /* PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerTests.m; sourceTree = "<group>"; };
+		1A04C09219A62209007E426B /* Arctic Monkeys - Crying Lightning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Arctic Monkeys - Crying Lightning.mp3"; path = "../Arctic Monkeys - Crying Lightning.mp3"; sourceTree = "<group>"; };
+		1A04C09419A6252A007E426B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1A04C0A519A66C07007E426B /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		1A04C0A719A66D5F007E426B /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picture.png; path = ../../picture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A04C09519A6252B007E426B /* AVFoundation.framework in Frameworks */,
 				1A04C06019A621D5007E426B /* CoreGraphics.framework in Frameworks */,
 				1A04C06219A621D5007E426B /* UIKit.framework in Frameworks */,
 				1A04C05E19A621D5007E426B /* Foundation.framework in Frameworks */,
@@ -101,6 +108,7 @@
 		1A04C05C19A621D5007E426B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1A04C09419A6252A007E426B /* AVFoundation.framework */,
 				1A04C05D19A621D5007E426B /* Foundation.framework */,
 				1A04C05F19A621D5007E426B /* CoreGraphics.framework */,
 				1A04C06119A621D5007E426B /* UIKit.framework */,
@@ -112,12 +120,14 @@
 		1A04C06319A621D5007E426B /* Player */ = {
 			isa = PBXGroup;
 			children = (
+				1A04C0A719A66D5F007E426B /* picture.png */,
+				1A04C09219A62209007E426B /* Arctic Monkeys - Crying Lightning.mp3 */,
 				1A04C06C19A621D5007E426B /* AppDelegate.h */,
 				1A04C06D19A621D5007E426B /* AppDelegate.m */,
 				1A04C06F19A621D5007E426B /* Main.storyboard */,
 				1A04C07219A621D5007E426B /* ViewController.h */,
 				1A04C07319A621D5007E426B /* ViewController.m */,
-				1A04C07519A621D5007E426B /* Images.xcassets */,
+				1A04C0A519A66C07007E426B /* Images-2.xcassets */,
 				1A04C06419A621D5007E426B /* Supporting Files */,
 			);
 			path = Player;
@@ -228,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A04C07619A621D5007E426B /* Images.xcassets in Resources */,
+				1A04C09319A62209007E426B /* Arctic Monkeys - Crying Lightning.mp3 in Resources */,
+				1A04C0A819A66D5F007E426B /* picture.png in Resources */,
 				1A04C06819A621D5007E426B /* InfoPlist.strings in Resources */,
+				1A04C0A619A66C07007E426B /* Images-2.xcassets in Resources */,
 				1A04C07119A621D5007E426B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +468,7 @@
 				1A04C08E19A621D5007E426B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A04C08F19A621D5007E426B /* Build configuration list for PBXNativeTarget "PlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				1A04C09119A621D5007E426B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
