@@ -11,6 +11,8 @@
 
 @interface TableViewController () {
     NSArray *arr;
+    int i;
+    
 }
 
 @end
@@ -36,9 +38,12 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    int i = 0;
-     arr = [NSArray arrayWithObjects:@"Arctic Monkeys - Crying Lightning", @"The Black Keys - Tighten Up", @"Summer Of Haze - Pussy Juice", nil];
+    
+    arr = [NSArray arrayWithObjects:@"Arctic Monkeys - Crying Lightning", @"The Black Keys - Tighten Up", @"Summer Of Haze - Pussy Juice", nil];
+    
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -73,6 +78,8 @@
     
     return cell;
 }
+
+
 
 
 /*

@@ -46,6 +46,32 @@
         self.VolumeSlider.value = 0.5;
         self.durationTimeLabel.text = [self stringFromInterval:self.audioPlayer.duration];
         
+        self.currentTimeLabel.text = [NSString stringWithFormat:@"0:00:00"];
+        
+        [self.currentTimeLabel sizeToFit];
+        [self.audioPlayer prepareToPlay];
+        
+        
+    }
+    
+}
+
+- (void) play {
+    
+    NSError *error = nil;
+    
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:arr[i] ofType:@"mp3"]];
+    
+    self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    if(error) {
+        NSLog(@"Error: %@", error.localizedDescription);
+    } else {
+        self.audioPlayer.delegate = self;
+        self.ProgressSlider.value = 0.0;
+        self.VolumeSlider.value = 0.5;
+        self.durationTimeLabel.text = [self stringFromInterval:self.audioPlayer.duration];
+        
         
         self.currentTimeLabel.text = [NSString stringWithFormat:@"0:00:00"];
         
@@ -53,9 +79,8 @@
         [self.audioPlayer prepareToPlay];
         
     }
-    
-}
 
+}
 
 - (void) playNextSong {
     i++;
@@ -88,6 +113,7 @@
         [self.currentTimeLabel sizeToFit];
         [self.audioPlayer prepareToPlay];
         [self.audioPlayer play];
+        
         
     }
 }
@@ -129,31 +155,11 @@
 }
 
 
-- (NSString *)stringFromInterval:(NSTimeInterval)interval {
-    
-    NSInteger ti = (NSInteger)interval;
-    
-    int seconds = ti%60;
-    int minutes = (ti/60)%60;
-    int hours = (ti/3600);
-    
-    
-    
-    if (ti <= 3600) {
-        return [NSString stringWithFormat:@"%02d:%02d", minutes, seconds];
-    }
-    
-    return [NSString stringWithFormat:@"%d:%02d:%02d", hours, minutes, seconds];
-    
-    
-}
-
-
-
 - (void)updateSlider {
     
     self.ProgressSlider.value = self.audioPlayer.currentTime;
     self.currentTimeLabel.text = [self stringFromInterval:self.audioPlayer.currentTime];
+    
 }
 
 - (void)didReceiveMemoryWarning

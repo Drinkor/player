@@ -23,6 +23,9 @@
 		1A04C09519A6252B007E426B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A04C09419A6252A007E426B /* AVFoundation.framework */; };
 		1A04C0A619A66C07007E426B /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A04C0A519A66C07007E426B /* Images-2.xcassets */; };
 		1A04C0A819A66D5F007E426B /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A04C0A719A66D5F007E426B /* picture.png */; };
+		1A3CE7B319AB2128002F53A5 /* Arctic Monkeys - Crying Lightning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A3CE7B019AB2128002F53A5 /* Arctic Monkeys - Crying Lightning.mp3 */; };
+		1A3CE7B419AB2128002F53A5 /* Summer Of Haze - Pussy Juice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A3CE7B119AB2128002F53A5 /* Summer Of Haze - Pussy Juice.mp3 */; };
+		1A3CE7B519AB2128002F53A5 /* The Black Keys - Tighten Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A3CE7B219AB2128002F53A5 /* The Black Keys - Tighten Up.mp3 */; };
 		1AD51AF719A7879B0001F2FE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD51AF619A7879B0001F2FE /* MediaPlayer.framework */; };
 		1AD51B0019A8AC380001F2FE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD51AFF19A8AC380001F2FE /* TableViewController.m */; };
 /* End PBXBuildFile section */
@@ -59,6 +62,9 @@
 		1A04C09419A6252A007E426B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1A04C0A519A66C07007E426B /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		1A04C0A719A66D5F007E426B /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picture.png; path = ../../picture.png; sourceTree = "<group>"; };
+		1A3CE7B019AB2128002F53A5 /* Arctic Monkeys - Crying Lightning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Arctic Monkeys - Crying Lightning.mp3"; path = "../../../Downloads/Arctic Monkeys - Crying Lightning.mp3"; sourceTree = "<group>"; };
+		1A3CE7B119AB2128002F53A5 /* Summer Of Haze - Pussy Juice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Summer Of Haze - Pussy Juice.mp3"; path = "../../../Downloads/Summer Of Haze - Pussy Juice.mp3"; sourceTree = "<group>"; };
+		1A3CE7B219AB2128002F53A5 /* The Black Keys - Tighten Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "The Black Keys - Tighten Up.mp3"; path = "../../../Downloads/The Black Keys - Tighten Up.mp3"; sourceTree = "<group>"; };
 		1AD51AF619A7879B0001F2FE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		1AD51AFE19A8AC380001F2FE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		1AD51AFF19A8AC380001F2FE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
@@ -126,6 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				1A04C0A719A66D5F007E426B /* picture.png */,
+				1A3CE7B019AB2128002F53A5 /* Arctic Monkeys - Crying Lightning.mp3 */,
+				1A3CE7B119AB2128002F53A5 /* Summer Of Haze - Pussy Juice.mp3 */,
+				1A3CE7B219AB2128002F53A5 /* The Black Keys - Tighten Up.mp3 */,
 				1A04C06C19A621D5007E426B /* AppDelegate.h */,
 				1A04C06D19A621D5007E426B /* AppDelegate.m */,
 				1A04C06F19A621D5007E426B /* Main.storyboard */,
@@ -244,10 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3CE7B319AB2128002F53A5 /* Arctic Monkeys - Crying Lightning.mp3 in Resources */,
 				1A04C0A819A66D5F007E426B /* picture.png in Resources */,
 				1A04C06819A621D5007E426B /* InfoPlist.strings in Resources */,
 				1A04C0A619A66C07007E426B /* Images-2.xcassets in Resources */,
+				1A3CE7B419AB2128002F53A5 /* Summer Of Haze - Pussy Juice.mp3 in Resources */,
 				1A04C07119A621D5007E426B /* Main.storyboard in Resources */,
+				1A3CE7B519AB2128002F53A5 /* The Black Keys - Tighten Up.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
