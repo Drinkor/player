@@ -154,6 +154,25 @@
     }
 }
 
+- (NSString *)stringFromInterval:(NSTimeInterval)interval {
+    
+    NSInteger ti = (NSInteger)interval;
+    
+    int seconds = ti%60;
+    int minutes = (ti/60)%60;
+    int hours = (ti/3600);
+    
+    
+    
+    if (ti <= 3600) {
+        return [NSString stringWithFormat:@"%02d:%02d", minutes, seconds];
+    }
+    
+    return [NSString stringWithFormat:@"%d:%02d:%02d", hours, minutes, seconds];
+    
+    
+}
+
 
 - (void)updateSlider {
     
