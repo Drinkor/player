@@ -18,7 +18,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Flw-xA-ggZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1748" y="36"/>
+            <point key="canvasLocation" x="-1752" y="-65"/>
         </scene>
         <!--Vk Login View Controller1-->
         <scene sceneID="n63-vQ-c99">
@@ -51,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="70Y-XP-gVQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2246" y="-8"/>
+            <point key="canvasLocation" x="-2272" y="-65"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">

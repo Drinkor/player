@@ -25,8 +25,8 @@
 		1AD51AF719A7879B0001F2FE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD51AF619A7879B0001F2FE /* MediaPlayer.framework */; };
 		1AD51B0019A8AC380001F2FE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD51AFF19A8AC380001F2FE /* TableViewController.m */; };
 		23004AFB19AB309B00807C17 /* Arctic Monkeys - Crying Lightning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23004AFA19AB309B00807C17 /* Arctic Monkeys - Crying Lightning.mp3 */; };
-		23004B0319AC8A1E00807C17 /* VkLoginViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 23004B0019AC8A1E00807C17 /* VkLoginViewController1.m */; };
-		23004B0419AC8A1E00807C17 /* NSString+StringBetween.m in Sources */ = {isa = PBXBuildFile; fileRef = 23004B0219AC8A1E00807C17 /* NSString+StringBetween.m */; };
+		23C188C719AC9A5800952CA5 /* VkLoginViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C188C619AC9A5800952CA5 /* VkLoginViewController1.m */; };
+		23C188CA19AC9AD500952CA5 /* NSString+StringBetween.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C188C919AC9AD500952CA5 /* NSString+StringBetween.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,10 +64,10 @@
 		1AD51AFE19A8AC380001F2FE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		1AD51AFF19A8AC380001F2FE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		23004AFA19AB309B00807C17 /* Arctic Monkeys - Crying Lightning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Arctic Monkeys - Crying Lightning.mp3"; sourceTree = "<group>"; };
-		23004AFF19AC8A1E00807C17 /* VkLoginViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VkLoginViewController1.h; path = "../../../Downloads/Now-master/SSNow/VkLoginViewController1.h"; sourceTree = "<group>"; };
-		23004B0019AC8A1E00807C17 /* VkLoginViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VkLoginViewController1.m; path = "../../../Downloads/Now-master/SSNow/VkLoginViewController1.m"; sourceTree = "<group>"; };
-		23004B0119AC8A1E00807C17 /* NSString+StringBetween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+StringBetween.h"; path = "../../../Downloads/Now-master/SSNow/NSString+StringBetween.h"; sourceTree = "<group>"; };
-		23004B0219AC8A1E00807C17 /* NSString+StringBetween.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+StringBetween.m"; path = "../../../Downloads/Now-master/SSNow/NSString+StringBetween.m"; sourceTree = "<group>"; };
+		23C188C519AC9A5800952CA5 /* VkLoginViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VkLoginViewController1.h; sourceTree = "<group>"; };
+		23C188C619AC9A5800952CA5 /* VkLoginViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VkLoginViewController1.m; sourceTree = "<group>"; };
+		23C188C819AC9AD500952CA5 /* NSString+StringBetween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringBetween.h"; sourceTree = "<group>"; };
+		23C188C919AC9AD500952CA5 /* NSString+StringBetween.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringBetween.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +131,8 @@
 		1A04C06319A621D5007E426B /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				23004AFF19AC8A1E00807C17 /* VkLoginViewController1.h */,
-				23004B0019AC8A1E00807C17 /* VkLoginViewController1.m */,
-				23004B0119AC8A1E00807C17 /* NSString+StringBetween.h */,
-				23004B0219AC8A1E00807C17 /* NSString+StringBetween.m */,
+				23C188C819AC9AD500952CA5 /* NSString+StringBetween.h */,
+				23C188C919AC9AD500952CA5 /* NSString+StringBetween.m */,
 				1A04C06C19A621D5007E426B /* AppDelegate.h */,
 				1A04C06D19A621D5007E426B /* AppDelegate.m */,
 				1A04C06F19A621D5007E426B /* Main.storyboard */,
@@ -145,6 +143,8 @@
 				1A04C06419A621D5007E426B /* Supporting Files */,
 				1AD51AFE19A8AC380001F2FE /* TableViewController.h */,
 				1AD51AFF19A8AC380001F2FE /* TableViewController.m */,
+				23C188C519AC9A5800952CA5 /* VkLoginViewController1.h */,
+				23C188C619AC9A5800952CA5 /* VkLoginViewController1.m */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -278,10 +278,10 @@
 			files = (
 				1A04C07419A621D5007E426B /* ViewController.m in Sources */,
 				1A04C06E19A621D5007E426B /* AppDelegate.m in Sources */,
-				23004B0319AC8A1E00807C17 /* VkLoginViewController1.m in Sources */,
 				1A04C06A19A621D5007E426B /* main.m in Sources */,
+				23C188C719AC9A5800952CA5 /* VkLoginViewController1.m in Sources */,
+				23C188CA19AC9AD500952CA5 /* NSString+StringBetween.m in Sources */,
 				1AD51B0019A8AC380001F2FE /* TableViewController.m in Sources */,
-				23004B0419AC8A1E00807C17 /* NSString+StringBetween.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
